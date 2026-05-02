@@ -1,0 +1,14 @@
+# Python environment
+.venv/
+__pycache__/
+
+# Security sensitive files (ignore the actual files)
+secured_app/*.key
+secured_app/*.crt
+secured_app/*.csr
+secured_app/*.srl
+secured_app/passwd.txt
+
+# Keep the config files
+!secured_app/mosquitto.conf
+!basic_app/mosquitto.conf
